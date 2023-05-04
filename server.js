@@ -18,7 +18,7 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
-client.login('MTEwMzcyMDI0OTE4Mzk2MTE0OQ.Gpn5YO.6Q_O2c3YDwK8q7KSyWtiMFAEs-x0wzr5PKhe-s');
+client.login('token');
 client.on('messageCreate', async message => {
 	
 	if (message.content.startsWith('/zvz ')) {
